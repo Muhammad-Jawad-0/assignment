@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+</head> 
+<body>
+    <h1>Nested table</h1>
+    <centre>
+    <table border="1" bgcolor="pink" width="800px" >
+        <tr>
+            <th>header column 1</th>
+            <th>header column 2</th>
+            <th>header column 3</th>
+            <th>header column 4</th>
+            <tr>
+             <td>Row-2 item 1</td>
+             <td> Row-2 item 2</td> 
+             <td rowspan="2">
+                 rows 2  nested table 1
+                <table border="1">
+                 <tr>
+                    <th>ROW 1 header</th>
+                    <td> item</td>
+                 </tr> 
+                 <tr>
+                    <th>row 2 header</th>
+                    <td>item</td>
+                 </tr> 
+                 <tr>
+                    <th>row 3 header</th>
+                    <td>item</td>
+                 </tr> 
+                </table>
+                </td> 
+                <td>
+                    row 2 item 4 <br> A second line
+                </td>
+                <tr>
+                    <td>
+                   row 3 nested table 2
+                   <table border="1">
+                    <tr>
+                        <th>ROW 1 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 header </th>
+                        <td> item </td>
+    
+                    </tr>
+
+                   </table>     
+                    </td>
+                    <td> row 3 item 2 </td>
+                    <td rowspan=" 2"> row  3 item 3</td>
+                </tr>
+                <tr>
+                    <td>ROW 4 item 1</td>
+                    <td>ROW 4 item 2</td>
+                    <td>ROW 4 item 3</td>
+                </tr>
+                <tr>
+                    <td colspan="4">last row of outer table</td>
+                </tr>
+            </centre>
+</body>
+</html>
