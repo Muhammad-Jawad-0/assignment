@@ -1,0 +1,28 @@
+h1{
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    color: blue;
+    text-transform: capitalize;
+
+}
+q{
+color: red;
+text-decoration: line-through;
+text-transform: capitalize; 
+text-decoration-color:blue ;
+justify-content: center;
+display: flex}
+ul{
+   color: red; 
+   text-transform: capitalize;
+}
+p#p1{
+    color: red;
+}
+del{
+    color: blue;
+}
